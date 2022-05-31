@@ -98,8 +98,8 @@ body::-webkit-scrollbar {
   float: left;
   /* border: 0;
   padding: 0; */
-  /* width: 25vh; */
-  margin-top: 25vh;
+  width: 29vh;
+  margin-top: 12vh;
   justify-content: space-between;
 }
 .right {
@@ -231,6 +231,7 @@ a:hover {
   }
   .left {
     margin-top: 0%;
+    width: auto;
   }
   .right{
     margin-top: 56vh;
