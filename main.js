@@ -201,6 +201,14 @@ document.addEventListener("DOMContentLoaded", () => {
           },
           { once: true }
         );
+        canvas.addEventListener(
+          "touchstart",
+          (e) => {
+            var mousePos = getMousePos(canvas, e);
+            ctx.fillText(this.character, mousePos.x, mousePos.y);
+          },
+          { once: true }
+        );
       });
       this.emojis.append(emojisElement);
     }
