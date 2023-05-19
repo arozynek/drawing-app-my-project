@@ -19,4 +19,10 @@ Even its logo was created using this app!
 
 ## Demo
 
+### Browser demo
+
 ![App screenshot](/images/drawing-emoji.png "Drawing App screenshot")
+
+### Mobile demo
+
+![App screenshot](/images/drawing-emoji-mobile.png "Drawing App screenshot")
