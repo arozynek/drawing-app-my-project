@@ -16,3 +16,7 @@ Even its logo was created using this app!
 ```http
   https://x-colors.herokuapp.com
 ```
+
+## Demo
+
+![App screenshot](/images/drawing-emoji.png "Drawing App screenshot")
