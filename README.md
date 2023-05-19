@@ -25,4 +25,4 @@ Even its logo was created using this app!
 
 ### Mobile demo
 
-![App screenshot](/images/drawing-emoji-mobile.png "Drawing App screenshot")
+![App screenshot](/images/drawing-emoji-mobile.jpg "Drawing App screenshot")
