@@ -65,25 +65,23 @@ document.addEventListener("DOMContentLoaded", () => {
     canvasSize();
   });
 
-
   // Canvas position
   function getMousePos(canvas, e) {
     var rect = canvas.getBoundingClientRect();
     if (window.matchMedia("(max-width: 600px)").matches) {
-      const {clientX, clientY} = e.touches[0];
-      const {left, top} = rect;
+      const { clientX, clientY } = e.touches[0];
+      const { left, top } = rect;
       return {
         x: clientX - left,
         y: clientY - top,
-      }
+      };
     } else {
       return {
         x: ((e.clientX - rect.left) / (rect.right - rect.left)) * canvas.width,
         y: ((e.clientY - rect.top) / (rect.bottom - rect.top)) * canvas.height,
-      }
+      };
     }
   }
-
 
   // PAINTING
 
@@ -136,7 +134,7 @@ document.addEventListener("DOMContentLoaded", () => {
     return (apiResponse = apiRequest
       .then((response) => response.json())
       .catch((error) => {
-        alert(
+        console.log(
           `Error - data can't be loaded from:
         ${url}`
         );
