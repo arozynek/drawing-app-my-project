@@ -26,3 +26,5 @@ Even its logo was created using this app!
 ### Mobile demo
 
 ![App screenshot](/images/drawing-emoji-mobile.jpg "Drawing App screenshot")
+
+I wrote also Angular version of this project. It's available here: https://github.com/arozynek/drawing-app-angular
